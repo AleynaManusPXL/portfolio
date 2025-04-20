@@ -20,13 +20,13 @@ if( isset($name) && isset($email) && isset($subject) && isset($message) && is_em
 	}
 
 	// Email will be send
-	$to = "hridoywebdev@gmail.com"; // Change with your email address
+	$to = "aleynamanus@gmail.com"; // Change with your email address
 	$sub = $subject; // You can define email subject
 	// HTML Elements for Email Body
 	$body = <<<EOD
-	<strong>Name:</strong> $name <br>
-	<strong>Email:</strong> <a href="mailto:$email?subject=feedback" "email me">$email</a> <br> <br>
-	<strong>Message:</strong> $message <br>
+	<strong>Naam:</strong> $name <br>
+	<strong>E-mail:</strong> <a href="mailto:$email?subject=feedback" "e-mail mij">$email</a> <br> <br>
+	<strong>Bricht:</strong> $message <br>
 EOD;
 //Must end on first column
 	
